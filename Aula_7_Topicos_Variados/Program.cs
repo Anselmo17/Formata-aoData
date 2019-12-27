@@ -23,7 +23,8 @@ namespace Aula_7_Topicos_Variados
             DateTime d5 = DateTime.ParseExact("2019-12-20 13:48:58", "yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture);
 
             // formato toString
-            var data = d1.ToString("yyyy-MM-dd HH:mm:ss");
+            var data = d1.ToString("yyyy-MM-dd");
+            var dataHora = d1.ToString("yyyy-MM-dd HH:mm:ss");
 
             // formatando data local e por UTC
             DateTime local = new DateTime(2019, 12, 26, 13,5,58 , DateTimeKind.Local);
@@ -43,6 +44,7 @@ namespace Aula_7_Topicos_Variados
 
             // formato toString
             Console.WriteLine(data);
+            Console.WriteLine(dataHora);
 
             // formato data local e UTC
             Console.WriteLine("Data local : "+local.ToLocalTime());
