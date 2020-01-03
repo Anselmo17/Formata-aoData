@@ -13,7 +13,6 @@ namespace Aula_7_Topicos_Variados
             DateTime d = DateTime.Now;
             DateTime d1 = DateTime.UtcNow;
 
-
             // formatando com o PARSE
             DateTime d2 = DateTime.Parse("27/12/2019");
             DateTime d3 = DateTime.Parse("27/12/2019 13:48:58");
